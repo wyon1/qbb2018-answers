@@ -7,6 +7,12 @@ import numpy as np
 
 ID = {}
 
+#IMPORTANT
+# IF YOU WANT TO PRINT EMPTY SPACES FOR  UNKNOWN GENES, TYPE 'a' AS FOURTH ARGUMENT
+# IF YOU WANT TO SKIP UNKNOWN GENES, TYPE 'b' AS FOURTH ARGUMENT
+
+
+
 #adds entries into the dictionary that have the FB ID as the key and UniProt as the value 
 def read_fly(fname): 
 	for line in open(fname):
