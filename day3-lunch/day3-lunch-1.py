@@ -8,7 +8,7 @@ def num_pcg(fname):
 		fields = line.rstrip("\r\n").split()
 		if line.startswith("#!"):
 			continue
-		if "gene" in line and "protein_coding" in line:
+		if "gene" in fields[2] and "protein_coding" in line:
 			count = count + 1
 #			print('check')
 	print(count)
