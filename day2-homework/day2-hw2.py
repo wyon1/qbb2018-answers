@@ -18,10 +18,20 @@ def read_fly(fname):
 #checks to see if the FB ID is in the line of the file and prints out the Uniprot ID followed by the gene's line
 def mapping(fname):
 	for line in open(fname):
+		count = 0
 		if "FBgn" in line:
 			fields = line.rstrip("\r\n").split()
 			if fields[8] in ID.keys():
-				print(ID[fields[8]], "\t", line)
+ 				if count < 100:
+ 				 	if sys.argv[3] == "a":
+ 				 		print("unknown", "\t", line)
+ 				 		count = count + 1
+ 				 	if sys.argv[3] == "b":
+ 				 		print(ID[fields[8]], "\t", line)
+ 				 		count = count + 1
+
+
+
 
 
 
