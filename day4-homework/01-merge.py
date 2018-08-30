@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """
-Usage: ./02-merge.py <sample1/t_data.ctab> <sample2/t_data.ctab> ... <sample_n/t_data.ctab> 
+Usage: ./02-merge.py <sample list.csv> <~/data/results/stringtie> 
 
 Create csv file with FPKMs from n samples, but only for ones above your set threshold
 """
