@@ -17,10 +17,6 @@ tx_fpkms2 = []
 fpkms1 = pd.read_csv(sys.argv[1], sep = "\t", index_col = "t_name").loc[:,"FPKM"]
 fpkms2 = pd.read_csv(sys.argv[2], sep = "\t", index_col = "t_name").loc[:,"FPKM"]
 
-	
-
-
-
 
 fig, ax = plt.subplots()
 
@@ -40,7 +36,7 @@ plt.xlim(1, 10**5)
 
 z = np.polyfit(x, y, 1)
 f = np.poly1d(z)
-x1 = np.linspace(0,10000)
+x1 = np.linspace(0,fpkms1.max())
 plt.plot(x1, f(x1))
 
 fig.savefig("scatter.png")
