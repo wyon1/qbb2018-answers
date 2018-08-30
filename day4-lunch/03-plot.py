@@ -24,7 +24,7 @@ x = fpkms1
 y = fpkms2
 t=np.random.rand(100)
 dotcolors=[(0.2, 0.4, 0.6,a) for a in t]
-ax.scatter(x, y,c=dotcolors)
+ax.scatter(x, y,alpha=0.2)
 ax.set_yscale('log')
 ax.set_xscale('log')
 plt.xlabel(sys.argv[1])
