@@ -1,0 +1,30 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                    0.0   R-squared:                       0.003
+Model:                            OLS   Adj. R-squared:                  0.002
+Method:                 Least Squares   F-statistic:                     21.89
+Date:                Fri, 31 Aug 2018   Prob (F-statistic):           4.58e-18
+Time:                        15:24:26   Log-Likelihood:            -2.0520e+05
+No. Observations:               34693   AIC:                         4.104e+05
+Df Residuals:                   34689   BIC:                         4.104e+05
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+0.3            0.2352      0.089      2.632      0.008       0.060       0.410
+0.3           -0.2250      0.045     -5.051      0.000      -0.312      -0.138
+0.3           -0.0041      0.099     -0.041      0.967      -0.198       0.190
+0.3            0.3463      0.130      2.670      0.008       0.092       0.601
+0.3           -0.2250      0.045     -5.051      0.000      -0.312      -0.138
+==============================================================================
+Omnibus:                    86467.405   Durbin-Watson:                   1.820
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):       2390551355.382
+Skew:                          26.950   Prob(JB):                         0.00
+Kurtosis:                    1287.848   Cond. No.                     6.32e+15
+==============================================================================
+
+Warnings:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 8.08e-26. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
