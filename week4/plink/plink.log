@@ -1,0 +1,216 @@
+PLINK v1.90b4 64-bit (20 Mar 2017)
+Options in effect:
+  --all-pheno
+  --allow-extra-chr
+  --allow-no-sex
+  --assoc
+  --id-delim
+  --mind
+  --pheno new_BYxRM_PhenoData.txt
+  --vcf BYxRM_segs_saccer3.bam.simplified.vcf
+
+Hostname: Wesleys-MacBook-Pro.local
+Working directory: /Users/wesley/OneDrive - Johns Hopkins University/qbb2018-answers/week4
+Start time: Tue Jan  1 17:56:25 2019
+
+Random number seed: 1546383385
+16384 MB RAM detected; reserving 8192 MB for main workspace.
+--vcf: plink-temporary.bed + plink-temporary.bim + plink-temporary.fam written.
+16624 variants loaded from .bim file.
+1056 people (0 males, 0 females, 1056 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to plink.nosex .
+799 phenotype values present after --pheno.
+105 people removed due to missing genotype data (--mind).
+IDs written to plink.irem .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 951 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate in remaining samples is 0.970565.
+16624 variants and 951 people pass filters and QC.
+Phenotype data is quantitative.
+729 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P1.qassoc ... done.
+918 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P2.qassoc ... done.
+865 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P3.qassoc ... done.
+906 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P4.qassoc ... done.
+921 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P5.qassoc ... done.
+895 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P6.qassoc ... done.
+887 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P7.qassoc ... done.
+918 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P8.qassoc ... done.
+918 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P9.qassoc ... done.
+919 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P10.qassoc ... done.
+883 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P11.qassoc ... done.
+914 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P12.qassoc ... done.
+878 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P13.qassoc ... done.
+703 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P14.qassoc ... done.
+877 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P15.qassoc ... done.
+867 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P16.qassoc ... done.
+908 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P17.qassoc ... done.
+889 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P18.qassoc ... done.
+918 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P19.qassoc ... done.
+916 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P20.qassoc ... done.
+881 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P21.qassoc ... done.
+920 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P22.qassoc ... done.
+919 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P23.qassoc ... done.
+879 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P24.qassoc ... done.
+919 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P25.qassoc ... done.
+919 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P26.qassoc ... done.
+919 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P27.qassoc ... done.
+598 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P28.qassoc ... done.
+807 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P29.qassoc ... done.
+554 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P30.qassoc ... done.
+917 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P31.qassoc ... done.
+920 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P32.qassoc ... done.
+878 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P33.qassoc ... done.
+919 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P34.qassoc ... done.
+875 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P35.qassoc ... done.
+907 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P36.qassoc ... done.
+915 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P37.qassoc ... done.
+917 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P38.qassoc ... done.
+920 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P39.qassoc ... done.
+896 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P40.qassoc ... done.
+803 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P41.qassoc ... done.
+920 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P42.qassoc ... done.
+919 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P43.qassoc ... done.
+917 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P44.qassoc ... done.
+735 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P45.qassoc ... done.
+881 phenotype values present after --pheno.
+Warning: QT --assoc doesn't handle X/Y/MT/haploid variants normally (try
+--linear).
+Writing QT --assoc report to plink.P46.qassoc ... done.
+
+End time: Tue Jan  1 17:56:28 2019
