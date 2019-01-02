@@ -94,6 +94,6 @@ ax.set_ylabel("Z-test result")
 ax.set_title("dN/dS per codon position")
 
 
-fig.savefig("dN_to_dS.png")
+fig.savefig("dS_to_dN.png")
 
 plt.close(fig)
