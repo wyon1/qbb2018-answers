@@ -91,7 +91,7 @@ ax.scatter(non_sig_pos, non_sig, s=2, color="blue")
 
 ax.set_xlabel("Condon position")
 ax.set_ylabel("Z-test result")
-ax.set_title("dN/dS per codon position")
+ax.set_title("dS/dN per codon position")
 
 
 fig.savefig("dS_to_dN.png")
